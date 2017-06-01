@@ -1,0 +1,48 @@
+#gallery {
+  width: 80%;
+  margin: 30px auto 0;
+}
+
+#gallery ul {
+  list-style: none;
+}
+
+#gallery ul li {
+  display: inline-block;
+  margin: 10px 10px 20px;
+  width: 20%;
+}
+
+#gallery ul li img {
+  width: 100%;
+  height: auto;
+}
+
+#gallery ul li i {
+  font-size: 35px;
+  color: #444;
+  display:block;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 5px;
+}
+
+nav {
+  margin-top: 50px;
+}
+
+nav > div {
+  
+  margin: 0 auto;
+  width: 500px;
+}
+
+input[name="searchbar"] {
+  display: inline-block;
+  width: 300px;
+}
+
+button[name="favorites"] {
+  vertical-align: top;
+  margin-left: 20px;
+}
